@@ -408,6 +408,11 @@ h3 {
   color: var(--success);
 }
 
+.tag-employment {
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
 .product-card ul,
 .feature-list {
   list-style: none;
