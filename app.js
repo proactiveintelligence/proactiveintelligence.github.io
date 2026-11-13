@@ -6,6 +6,7 @@ const COPY = {
     "nav.scenarios": "场景",
     "nav.clients": "客户",
     "nav.team": "团队",
+    "nav.career": "招聘",
     "nav.contact": "联系我们",
     "nav.cta": "了解产品",
     "hero.eyebrow": "主动式人工智能公司",
@@ -143,6 +144,58 @@ const COPY = {
     "footer.phoneLabel": "电话",
     "footer.emailLabel": "邮箱",
     "footer.backed": "由香港科技园公司（HKSTP）与 HKAI Lab 支持",
+    "career.meta":
+      "PROACTIVE INTELLIGENCE LIMITED 正在招聘：基于大语言模型的 AI Agent 开发工程师、电商技术开发、一线开发工程师与 IT 开发工程师。",
+    "career.eyebrow": "招聘",
+    "career.title": "开放职位",
+    "career.lede":
+      "我们正在招聘工程师，一起打造支付智能、电商平台，以及客户每天都在使用的系统。",
+    "career.howto": "请将简历与申请职位发送至",
+    "career.cta": "查看职位",
+    "career.open": "招聘中",
+    "career.apply": "申请职位",
+    "career.responsibilities": "工作内容",
+    "job1.title": "基于大语言模型的 AI Agent 开发工程师",
+    "job1.d1": "开发并优化 AI Agent，智能识别商户二维码所属支付平台（如支付宝、微信支付等）。",
+    "job1.d2": "构建并维护支付路由算法，推荐最优的跨平台转账路径。",
+    "job1.d3": "参与 AI 模型的训练、部署与迭代，提升识别准确率与系统响应速度。",
+    "job1.d4": "对接主流支付平台 API（如 MCP 接口）。",
+    "job2.title": "电商技术开发",
+    "job2.s1t": "平台开发",
+    "job2.s1p": "设计、构建并维护核心电商网站与结账流程。",
+    "job2.s2t": "前端实现",
+    "job2.s2p":
+      "将 UI/UX 设计线框转化为高质量、响应式且可交互的用户界面，使用 HTML5、CSS3、JavaScript 及现代框架（如 React、Vue.js 或 Liquid）。",
+    "job2.s3t": "后端集成",
+    "job2.s3p":
+      "开发并维护定制后端功能，包括与 ERP、CRM、支付网关（Stripe、PayPal）及物流服务商（Shippo、FedEx）等第三方服务的 API 集成。",
+    "job2.s4t": "维护与安全",
+    "job2.s4p": "排查技术问题、进行定期更新，并确保平台安全且符合 PCI 合规要求。",
+    "job2.s5t": "协作",
+    "job2.s5p":
+      "与市场、设计及产品团队紧密合作，落地 A/B 测试、落地页和新功能发布，以推动销售。",
+    "job3.title": "一线开发工程师",
+    "job3.d1": "在客户现场，或与客户、产品、销售及客户成功团队紧密协作，收集需求、梳理流程并识别痛点。",
+    "job3.d2":
+      "设计、开发、测试并部署原型与生产级方案，包括 Web 应用、API、数据管道、自动化脚本和集成组件。",
+    "job3.d3": "负责系统集成、数据迁移、配置管理、部署与现场调试，确保稳定交付。",
+    "job3.d4": "排查并解决现场技术问题，提供根因分析、修复方案与预防措施。",
+    "job3.d5": "将现场反馈转化为产品需求，并与产品及工程团队协作，提升平台能力。",
+    "job3.d6": "编写技术文档、部署指南与最佳实践；培训客户与内部团队。",
+    "job3.d7": "支持概念验证（POC）、售前演示、技术评估与客户技术沟通。",
+    "job4.title": "IT 开发工程师",
+    "job4.intro":
+      "IT 开发工程师负责设计、开发、测试并维护软件应用、系统集成与 IT 系统。该岗位需要扎实的技术能力、对细节的关注，以及与跨职能团队协作、交付可靠且可扩展方案的能力。",
+    "job4.d1": "设计、开发、测试、部署并维护软件应用与系统。",
+    "job4.d2": "编写清晰、可扩展且文档完善的代码。",
+    "job4.d3": "与业务分析师、项目经理及其他开发人员协作，理解需求并交付技术方案。",
+    "job4.d4": "开发并维护 API、系统集成与数据库方案。",
+    "job4.d5": "排查、调试并优化现有应用的性能与安全性。",
+    "job4.d6": "参与代码评审，并贡献开发最佳实践。",
+    "job4.d7": "编写并维护技术文档。",
+    "job4.d8": "在 Agile/Scrum 开发流程中工作。",
+    "job4.d9": "持续关注新兴技术，并提出改进建议。",
+    "job4.d10": "确保符合安全、数据隐私及公司 IT 政策。",
   },
   en: {
     "nav.company": "Company",
@@ -151,6 +204,7 @@ const COPY = {
     "nav.scenarios": "Scenarios",
     "nav.clients": "Clients",
     "nav.team": "Team",
+    "nav.career": "Careers",
     "nav.contact": "Contact",
     "nav.cta": "See products",
     "hero.eyebrow": "Proactive AI company",
@@ -289,6 +343,69 @@ const COPY = {
     "footer.phoneLabel": "Phone",
     "footer.emailLabel": "Email",
     "footer.backed": "Backed by HKSTP and HKAI Lab",
+    "career.meta":
+      "Open roles at PROACTIVE INTELLIGENCE LIMITED: LLM-based AI Agent Developer, E-commerce Technology Developer, Frontline Development Engineer, and IT Developer.",
+    "career.eyebrow": "Careers",
+    "career.title": "Open positions",
+    "career.lede":
+      "We are hiring engineers to build payment intelligence, commerce platforms, and the systems our clients rely on.",
+    "career.howto": "Send your resume and the role title to",
+    "career.cta": "View openings",
+    "career.open": "Open",
+    "career.apply": "Apply",
+    "career.responsibilities": "What you will do",
+    "job1.title": "LLM-based AI Agent Developer",
+    "job1.d1":
+      "Develop and optimize AI Agents to intelligently identify the payment platform of merchant QR codes (such as Alipay, WeChat Pay, etc.).",
+    "job1.d2":
+      "Build and maintain payment routing algorithms to recommend the optimal cross-platform transfer paths.",
+    "job1.d3":
+      "Participate in AI model training, deployment, and iteration to improve recognition accuracy and system response speed.",
+    "job1.d4": "Integrate mainstream payment platform APIs (such as MCP interfaces).",
+    "job2.title": "E-commerce Technology Developer",
+    "job2.s1t": "Platform Development",
+    "job2.s1p": "Design, build, and maintain the core e-commerce website and checkout flow.",
+    "job2.s2t": "Frontend Implementation",
+    "job2.s2p":
+      "Translate UI/UX design wireframes into high-quality, responsive, and interactive user interfaces using HTML5, CSS3, JavaScript, and modern frameworks (e.g., React, Vue.js, or Liquid).",
+    "job2.s3t": "Backend Integration",
+    "job2.s3p":
+      "Develop and maintain custom backend functionalities, including API integrations with third-party services such as ERPs, CRMs, payment gateways (Stripe, PayPal), and shipping providers (Shippo, FedEx).",
+    "job2.s4t": "Maintenance & Security",
+    "job2.s4p":
+      "Troubleshoot technical issues, perform regular updates, and ensure the platform is secure and PCI compliant.",
+    "job2.s5t": "Collaboration",
+    "job2.s5p":
+      "Work closely with the Marketing, Design, and Product teams to implement A/B tests, landing pages, and new feature rollouts that drive sales.",
+    "job3.title": "Frontline Development Engineer",
+    "job3.d1":
+      "Work on-site or closely with customers, product, sales, and customer success teams to gather requirements, map workflows, and identify pain points.",
+    "job3.d2":
+      "Design, develop, test, and deploy prototypes and production-grade solutions, including web applications, APIs, data pipelines, automation scripts, and integration components.",
+    "job3.d3":
+      "Own system integration, data migration, configuration management, deployment, and on-site debugging to ensure stable delivery.",
+    "job3.d4":
+      "Troubleshoot and resolve technical issues in the field, and provide root cause analysis, fixes, and preventive measures.",
+    "job3.d5":
+      "Translate field feedback into product requirements and collaborate with product and engineering teams to improve platform capabilities.",
+    "job3.d6":
+      "Write technical documentation, deployment guides, and best practices; train customers and internal teams.",
+    "job3.d7":
+      "Support POCs, pre-sales demos, technical evaluations, and customer technical discussions.",
+    "job4.title": "IT Developer",
+    "job4.intro":
+      "The IT Developer will be responsible for designing, developing, testing, and maintaining software applications, integrations, and IT systems. This role requires strong technical skills, attention to detail, and the ability to collaborate with cross-functional teams to deliver reliable and scalable solutions.",
+    "job4.d1": "Design, develop, test, deploy, and maintain software applications and systems.",
+    "job4.d2": "Write clean, scalable, and well-documented code.",
+    "job4.d3":
+      "Collaborate with business analysts, project managers, and other developers to understand requirements and deliver technical solutions.",
+    "job4.d4": "Develop and maintain APIs, integrations, and database solutions.",
+    "job4.d5": "Troubleshoot, debug, and optimize existing applications for performance and security.",
+    "job4.d6": "Participate in code reviews and contribute to development best practices.",
+    "job4.d7": "Create and maintain technical documentation.",
+    "job4.d8": "Work within Agile/Scrum development processes.",
+    "job4.d9": "Stay current with emerging technologies and recommend improvements.",
+    "job4.d10": "Ensure compliance with security, data privacy, and company IT policies.",
   },
 };
 
@@ -306,14 +423,20 @@ function applyLang(lang) {
   document.querySelectorAll(".lang-switch button").forEach((btn) => {
     btn.classList.toggle("is-active", btn.dataset.lang === lang);
   });
-  const title = "PROACTIVE INTELLIGENCE LIMITED";
-  const desc =
-    lang === "zh"
+  const isCareer = document.body.dataset.page === "career";
+  const title = isCareer
+    ? lang === "zh"
+      ? "招聘 — PROACTIVE INTELLIGENCE LIMITED"
+      : "Careers — PROACTIVE INTELLIGENCE LIMITED"
+    : "PROACTIVE INTELLIGENCE LIMITED";
+  const desc = isCareer
+    ? dict["career.meta"]
+    : lang === "zh"
       ? "PROACTIVE INTELLIGENCE LIMITED — 构建感知多路输入、执行多通道输出的主动式 AI 助手。"
       : "PROACTIVE INTELLIGENCE LIMITED builds a context-aware assistant that senses multimodal input and acts through multiple output channels.";
   document.title = title;
   const meta = document.querySelector('meta[name="description"]');
-  if (meta) meta.setAttribute("content", desc);
+  if (meta && desc) meta.setAttribute("content", desc);
   localStorage.setItem("pi-lang", lang);
 }
 
